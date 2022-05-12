@@ -9,7 +9,7 @@ def dingtalk(msg, dingtalk_token, tries=5):
     data = {
         "msgtype": "text",
         "text": {
-            "content": msg
+            "content": LZK
         },
         "at": {
             "isAtAll": False
